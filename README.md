@@ -104,8 +104,19 @@ Watch the complete application walkthrough:
 
 https://youtu.be/vdG5yJk4zpg
 
+### Login Page
+
+
+### SignUp page
+
+
 ### Landing Page
-![Landing Page](src/assets/Hero-image.jpg)
+![Landing Page](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2016_59_48.png)
+
+![Landing Page](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_00_06.png)
+
+![Landing Page](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_00_15.png)
+
 
 ### Event Listing
 - Responsive grid layout
