@@ -60,7 +60,6 @@ export const EventsProvider = ({ children }) => {
   // Fetch per-user favourites and registrations when uid changes
   useEffect(() => {
     if (!uid) {
-      console.log('No user, clearing favourites and registrations');
       setFavouriteEventIds([]);
       setRegistrations([]);
       return;
@@ -68,18 +67,14 @@ export const EventsProvider = ({ children }) => {
     const controller = new AbortController();
     const load = async () => {
       try {
-        console.log('Loading favourites and registrations for user:', uid);
         const [favsRes, regsRes] = await Promise.all([
           fetch(`${API_BASE_URL}/users/${uid}/favourites`, { signal: controller.signal }),
           fetch(`${API_BASE_URL}/users/${uid}/registrations`, { signal: controller.signal }),
         ]);
         const favs = await favsRes.json();
         const regs = await regsRes.json();
-        console.log('Favourites response:', favs);
-        console.log('Registrations response:', regs);
         if (favs.success) {
           const eventIds = favs.favourites.map(f => f.eventId);
-          console.log('Setting favourite event IDs:', eventIds);
           setFavouriteEventIds(eventIds);
         }
         if (regs.success) setRegistrations(regs.registrations);
@@ -93,29 +88,24 @@ export const EventsProvider = ({ children }) => {
 
   const toggleFavourite = async (eventId) => {
     if (!uid) {
-      console.log('No user logged in, cannot toggle favourite');
       return;
     }
     try {
-      console.log('Toggling favourite for event:', eventId, 'user:', uid);
       const response = await fetch(`${API_BASE_URL}/users/${uid}/favourites`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ eventId }),
       });
       const data = await response.json();
-      console.log('Toggle favourite response:', data);
       
       if (data.success) {
         // Update local state based on backend response
         if (data.removed) {
           setFavouriteEventIds((prev) => prev.filter((id) => id !== eventId));
-          console.log('Removed from favourites');
         } else {
           setFavouriteEventIds((prev) => 
             prev.includes(eventId) ? prev : [...prev, eventId]
           );
-          console.log('Added to favourites');
         }
       }
     } catch (error) {

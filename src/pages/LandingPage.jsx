@@ -37,7 +37,7 @@ const LandingPage = () => {
             <div className='col-lg-6 text-center'>
               <div className='eventify-hero-image'>
                 <img 
-                  src='/src/assets/Hero-image.jpg' 
+                  src='./src/assets/Hero-image.jpg' 
                   alt='Eventify - Discover Amazing Events' 
                   className='img-fluid rounded shadow-lg mb-3'
                   style={{ maxHeight: '400px', objectFit: 'cover', width: '100%' }}
