@@ -90,7 +90,7 @@ const LandingPage = () => {
       {/* Featured Events Section */}
       <section className='eventify-featured-section py-4'>
         <div className='container'>
-          <div className='row mb-5'>
+          <div className='row mb-3'>
             <div className='col-12 text-center'>
               <h2 className='display-5 fw-bold mb-3'>Featured Events</h2>
               <p className='lead text-muted'>Discover the most popular upcoming events</p>
@@ -113,7 +113,7 @@ const LandingPage = () => {
             </div>
           )}
           
-          <div className='text-center mt-5'>
+          <div className='text-center mt-3'>
             <Link to='/events' className='btn btn-primary btn-lg px-5'>
               <i className='fas fa-arrow-right me-2'></i>View All Events
             </Link>
