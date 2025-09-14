@@ -102,7 +102,7 @@ VITE_API_BASE_URL=https://your-custom-backend-url.com
 ### 🎥 **Application Demo Video**
 Watch the complete application walkthrough:
 
-https://github.com/Srija0770/Eventify-frontend/assets/123456789/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%202025-09-14%2016-33-49.mp4
+https://youtu.be/vdG5yJk4zpg
 
 ### Landing Page
 ![Landing Page](src/assets/Hero-image.jpg)
