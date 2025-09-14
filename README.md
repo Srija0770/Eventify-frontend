@@ -260,7 +260,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Live Demo**: [Frontend deployment link will be added here]
+**Live Demo**: [https://eventifytheeventmanagementplatform.netlify.app/](https://eventifytheeventmanagementplatform.netlify.app/) ✅ Live
 
 **Backend API**: [https://eventify-backend-hlyh.onrender.com](https://eventify-backend-hlyh.onrender.com) ✅ Live
 
