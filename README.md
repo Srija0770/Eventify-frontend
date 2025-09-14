@@ -105,10 +105,10 @@ Watch the complete application walkthrough:
 https://youtu.be/vdG5yJk4zpg
 
 ### Login Page
-
+![Login Page](src/assets/Output-screenshots%20and%20videos/Screenshot%202025-09-14%20170820.png)
 
 ### SignUp page
-
+![SignUp Page](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_09_02.png)
 
 ### Landing Page
 ![Landing Page](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2016_59_48.png)
@@ -124,17 +124,38 @@ https://youtu.be/vdG5yJk4zpg
 - Search functionality
 - Category and status filters
 
+![Event Listing](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_01_28.png)
+
+![Event Listing](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_01_36.png)
+
 ### Event Details
 - Complete event information
 - Registration form with validation
 - Bookmark functionality
 - Event image display
 
+![Event Details](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_02_34.png)
+
+![Event Details](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_02_46.png)
+
 ### User Dashboard
 - Registration management
 - Interactive charts and statistics
 - Category breakdown
 - Quick stats overview
+
+![User Dashboard](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_04_59.png)
+
+![User Dashboard](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_05_12.png)
+
+![User Dashboard](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_05_20.png)
+
+### Event Registration
+![Event Registration](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_03_22.png)
+
+![Event Registration](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_04_33.png)
+
+![Event Registration](src/assets/Output-screenshots%20and%20videos/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%2014-09-2025%2017_06_35.png)
 
 ### Dark Mode
 - Toggle between light and dark themes
