@@ -138,7 +138,7 @@ const UserDashboard = () => {
 
       {/* Enhanced Statistics Section */}
       {Object.keys(stats.byCategory).length > 0 && (
-        <section className='eventify-stats-section py-5 bg-light'>
+        <section className='eventify-stats-section pb-5 pt-3 bg-light'>
           <div className='container'>
             <div className='row mb-4'>
               <div className='col-12'>
@@ -151,7 +151,7 @@ const UserDashboard = () => {
               {/* Quick Stats Cards */}
               <div className='col-lg-3 col-md-6'>
                 <div className='eventify-stat-card card border-0 shadow-sm h-100'>
-                  <div className='card-body text-center p-4'>
+                  <div className='card-body text-center p-3'>
                     <div className='eventify-stat-icon mb-3'>
                       <i className='fas fa-calendar-check text-primary display-4'></i>
                     </div>
