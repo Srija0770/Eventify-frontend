@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .container .row .col-12, .container .row .col-md-6 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  form .btn {
+    width: 100%;
+  }
+}
+
+

@@ -1,0 +1,191 @@
+/* Enhanced Stats Section Styles */
+.eventify-stat-card {
+  transition: all 0.3s ease;
+  border-radius: 12px !important;
+}
+
+.eventify-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.eventify-stat-icon {
+  transition: all 0.3s ease;
+}
+
+.eventify-stat-card:hover .eventify-stat-icon {
+  transform: scale(1.1);
+}
+
+.eventify-chart-card {
+  border-radius: 12px !important;
+  transition: all 0.3s ease;
+}
+
+.eventify-chart-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.eventify-category-breakdown-card {
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent !important;
+}
+
+.eventify-category-breakdown-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+}
+
+.eventify-category-color {
+  transition: all 0.3s ease;
+}
+
+.eventify-category-breakdown-card:hover .eventify-category-color {
+  transform: scale(1.2);
+}
+
+/* Dashboard Header Enhancements */
+.eventify-dashboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.eventify-dashboard-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.eventify-dashboard-stats {
+  position: relative;
+  z-index: 1;
+}
+
+/* Registration Cards */
+.eventify-registration-card {
+  border-radius: 12px !important;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef !important;
+}
+
+.eventify-registration-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+  border-color: #007bff !important;
+}
+
+.eventify-registration-details {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .card .btn { 
+    width: 100%; 
+  }
+  .card .d-flex.gap-2 { 
+    flex-direction: column; 
+  }
+  
+  .eventify-stat-card .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .eventify-chart-card .card-body {
+    padding: 1rem !important;
+  }
+  
+  .eventify-chart-card .card-body > div {
+    height: 250px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .eventify-dashboard-stats {
+    text-align: center !important;
+    margin-top: 1rem;
+  }
+  
+  .eventify-dashboard-stats .d-inline-block {
+    display: block !important;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Animation for stats loading */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.eventify-stat-card,
+.eventify-chart-card,
+.eventify-category-breakdown-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.eventify-stat-card:nth-child(1) { animation-delay: 0.1s; }
+.eventify-stat-card:nth-child(2) { animation-delay: 0.2s; }
+.eventify-stat-card:nth-child(3) { animation-delay: 0.3s; }
+.eventify-stat-card:nth-child(4) { animation-delay: 0.4s; }
+
+/* Dark mode specific improvements for dashboard */
+[data-bs-theme="dark"] .eventify-dashboard-page {
+  background-color: #1a1a1a;
+  color: #e9ecef;
+}
+
+[data-bs-theme="dark"] .eventify-dashboard-header {
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%) !important;
+}
+
+[data-bs-theme="dark"] .eventify-registration-details {
+  background: #374151;
+  border: 1px solid #4a5568;
+}
+
+[data-bs-theme="dark"] .eventify-stats-section {
+  background-color: #2d3748 !important;
+}
+
+[data-bs-theme="dark"] .eventify-stat-card {
+  background-color: #374151 !important;
+  border-color: #4a5568 !important;
+}
+
+[data-bs-theme="dark"] .eventify-chart-card {
+  background-color: #374151 !important;
+  border-color: #4a5568 !important;
+}
+
+[data-bs-theme="dark"] .eventify-category-breakdown-card {
+  background-color: #374151 !important;
+  border-color: #4a5568 !important;
+}
+
+[data-bs-theme="dark"] .eventify-registration-card {
+  background-color: #374151 !important;
+  border-color: #4a5568 !important;
+}
+
+[data-bs-theme="dark"] .eventify-registration-card:hover {
+  border-color: #0d6efd !important;
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.2) !important;
+}
+

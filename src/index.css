@@ -1,0 +1,46 @@
+:root {
+  --bg: #f7f8fb;
+  --card-bg: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --primary: #0d6efd;
+  --radius: 12px;
+  --shadow: 0 10px 20px rgba(0,0,0,0.06);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.card {
+  border: none;
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: var(--shadow);
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.img-fluid.rounded {
+  border-radius: var(--radius) !important;
+}
+
+/* Responsive helpers */
+@media (max-width: 576px) {
+  .filter-bar .form-control,
+  .filter-bar .form-select {
+    min-width: 0;
+    width: 100%;
+  }
+  .filter-bar .d-flex {
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,14 @@
+
+/* Ensure images are responsive and keep aspect ratio */
+.card-img-top {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 140px;
+  }
+}
+

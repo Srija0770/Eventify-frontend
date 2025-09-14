@@ -1,0 +1,7 @@
+@media (max-width: 576px) {
+  .container .row .col-12 + .col-12 {
+    margin-top: 1rem;
+  }
+}
+
+

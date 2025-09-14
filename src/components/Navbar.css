@@ -1,0 +1,11 @@
+/* Improve tap targets and spacing on small screens */
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    padding: 0.75rem 0.5rem;
+  }
+  .navbar .navbar-brand {
+    font-size: 1.1rem;
+  }
+}
+
+

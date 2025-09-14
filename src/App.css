@@ -1,0 +1,25 @@
+.hero {
+  background: linear-gradient(135deg, rgba(13,110,253,1) 0%, rgba(86,139,255,1) 100%);
+  border-radius: 16px;
+}
+
+.filter-bar input, .filter-bar select {
+  min-width: 220px;
+}
+
+.empty-state {
+  color: var(--muted);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  transition: transform 150ms ease;
+}
+
+/* Make hero padding and font sizes responsive */
+@media (max-width: 576px) {
+  .hero {
+    padding: 1rem !important;
+  }
+}
+
