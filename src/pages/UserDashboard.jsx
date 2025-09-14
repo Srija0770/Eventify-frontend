@@ -37,7 +37,7 @@ const UserDashboard = () => {
   return (
     <div className='eventify-dashboard-page'>
       {/* Header Section */}
-      <section className='eventify-dashboard-header bg-primary bg-gradient text-white py-5'>
+      <section className='eventify-dashboard-header bg-primary bg-gradient text-white py-4'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-8'>
@@ -61,7 +61,7 @@ const UserDashboard = () => {
       </section>
 
       {/* Registrations Section */}
-      <section className='eventify-registrations-section py-5'>
+      <section className='eventify-registrations-section pb-5 pt-3'>
         <div className='container'>
           <div className='row mb-4'>
             <div className='col-12'>
