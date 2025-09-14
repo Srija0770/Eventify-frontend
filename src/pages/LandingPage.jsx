@@ -3,6 +3,7 @@ import '../styles/LandingPage.css';
 import { Link } from 'react-router-dom';
 import EventCard from '../components/EventCard';
 import { useEvents } from '../context/EventsContext';
+import HeroImage from '../assets/Hero-image.jpg';
 
 const LandingPage = () => {
   const { events, loading } = useEvents()
