@@ -97,7 +97,12 @@ VITE_API_BASE_URL=https://your-custom-backend-url.com
 3. Copy your Firebase config to `src/firebase.js`
 4. Update the configuration with your project details
 
-## 📱 **Screenshots**
+## 📱 **Screenshots & Demo**
+
+### 🎥 **Application Demo Video**
+Watch the complete application walkthrough:
+
+https://github.com/Srija0770/Eventify-frontend/assets/123456789/eventifytheeventmanagementplatform.netlify.app%20-%20Google%20Chrome%202025-09-14%2016-33-49.mp4
 
 ### Landing Page
 ![Landing Page](src/assets/Hero-image.jpg)
